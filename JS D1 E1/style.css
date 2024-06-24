@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.mbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgimg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(images/luca-bravo-zAjdgNXsMeg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    background-image: url(images/weather.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.container{
+    position: relative;
+     margin-top: 100px;
+    background-color: black;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+}
+.searchbar{
+position: relative;
+top:30px ;
+display: flex;
+justify-content: center;
+width: 100%;
+height: 50px;
+}
+input{
+
+ padding: 15px 20px;
+ font-size: 18px;
+ outline: none;
+ left: 40px;
+ width: 300px;
+ height: 50px;
+ border-radius: 40px;
+ color: black;
+}
+.search{
+    position: absolute;
+    left: 60px;
+    top: 18px;
+}
+.searchbtn button{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right:70px;
+    top: 18px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+.searchbtn i:hover{
+background-color: black;
+color: white;
+}
+.searchbtn i{
+    color: black;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -2px;
+    background-color: white;
+    border-radius: 50%;
+  
+}
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:100px;
+    width: 500px;
+    height: 320px;
+}
+.maincontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+}
+
+.weathericon{
+    margin: 10px 30px 10px 30px;
+    height: 100px;
+    width: 100px;
+}
+.dicon img{
+    position: relative;
+    top: -60px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+}
+.degree{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 200px;
+}
+.degree .dot{
+    position: relative;
+    top: 20px;
+   
+}
+.c{
+position: relative;
+top: 17px;
+font-size: 60px;
+}
+.dinfo{
+    font-size: 80px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 300px;
+}
+.dlocation{
+   font-size: 50px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 500px;
+    position: relative;
+    top: 110px;
+}
+.fcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+
+}
+.section
+
+{   display: flex;
+    flex-direction: row;
+     margin-left: 10px;
+    height: 80px;
+    width: 150px;
+   
+
+}
+
+.ficon{
+    height: 50px;
+    width: 50px;
+    margin: 8px 0px 0px 5px;
+    margin-right: 5px;
+}
+
+.finfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 50px;
+    font-size: 20px;
+   
+}
+.f2{
+    width: 200px;
+}
+.ftitle{
+    
+   display: flex;
+  
+   position: relative;
+   top: 60px;
+   right: 40px;
+   height: 19px;
+   width: 90px;
+}
+.ftitle h6{
+    
+    font-size: 25px;
+}
+.t1{
+    position: absolute;
+    left: 150px;
+}
+.t2{
+    position: absolute;
+    width: 100px;
+    top: 60px;
+    right: 90px;
+
+}
+.dis{
+    font-size: 25px;
+    margin-right: 6px;
+}
+.maincontainer {
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+.err{
+    position: relative;
+    top: 58px;
+    right: 140px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: rgb(166, 0, 255);
+}
